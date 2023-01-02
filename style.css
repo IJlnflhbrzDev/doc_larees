@@ -1,5 +1,6 @@
 body {
-  background-color: #fff6f7 !important;
+  background-color: #fafafa;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -135,4 +136,99 @@ a:hover {
   color: #FB7377;
   font-size: 15px;
   font-weight: 700;
+}
+
+main.detail-doc .header-doc-title {
+  margin-bottom: 30px;
+}
+main.detail-doc .header-doc-title h1 {
+  font-size: 36px;
+  color: #1f1f1f;
+  margin: 0 0 15px 0;
+}
+main.detail-doc .header-doc-title h2 {
+  font-size: 17px;
+  color: #aaa;
+  font-weight: 400;
+  margin: 0;
+}
+main.detail-doc .list-content-doc {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px 0 #dfe5ee;
+}
+main.detail-doc .list-content-doc .post-card {
+  border-bottom: 0px;
+  border-bottom: 1px solid #f0f0f0;
+}
+main.detail-doc .list-content-doc .post-card a.post-card-link {
+  display: block;
+  padding: 30px;
+  border-radius: 0px 0px 12px 12px;
+  text-decoration: none;
+}
+main.detail-doc .list-content-doc .post-card a.post-card-link:hover {
+  box-shadow: 0 2px 24px 5px #dfe5ee;
+}
+main.detail-doc .post-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  color: #1f1f1f;
+}
+main.detail-doc .post-card-content p {
+  color: #7a7a7a;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main.detail-doc .post-meta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  color: #999;
+  font-family: system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main.detail-doc .post-meta .author-list {
+  margin-right: 12px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+main.detail-doc .post-meta .reading-time {
+  font-size: 14px;
+  color: #999;
+}
+
+@media only screen and (max-width: 420px) {
+  .tag-list {
+    -moz-column-count: 1 !important;
+         column-count: 1 !important;
+  }
+  .site-title .site-description {
+    font-size: 17px;
+  }
+  main.detail-doc .header-doc-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  main.detail-doc .header-doc-title h1 {
+    font-size: 30px;
+  }
+  main.detail-doc .breadcrumb {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 25px;
+  }
+  main.detail-doc .breadcrumb .breadcrumb-item {
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+  }
 }/*# sourceMappingURL=style.css.map */
