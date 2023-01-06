@@ -293,3 +293,63 @@ main.detail-doc {
     }
 
 }
+
+.Lnavbar-section{
+    max-width: 1085px;
+    width: 100%;
+    margin: 0 auto;
+    /* position: absolute; */
+    position: relative;
+    .navbar{
+    padding-top: 20px;
+
+        position: absolute;
+        z-index: 99;
+        width: 100%;
+    }
+}
+.Lnavbar-section .nav-item {
+    margin-right: 22px;
+  }
+  .Lnavbar-section .nav-item .nav-link {
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.9;
+    display: inline-block;
+  }
+  .Lnavbar-section .nav-item .nav-link.active {
+    font-weight: bold;
+    color: white;
+  }
+  .Lnavbar-section .btn-Lprimary {
+    background-color: #FB7377;
+    color: white !important;
+    font-size: 20;
+    font-weight: bold;
+    border-radius: 11px !important;
+    width: 130px;
+  }
+  
+  @media screen and(max-width: 992px){ 
+    .navbar-nav{
+        border-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-top: 20px;
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        
+        .nav-link{
+            color: #FB7377 !important;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .nav-link.btn-Lprimary{
+            color: white !important;
+
+        }
+
+
+    }
+  }
